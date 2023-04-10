@@ -1,0 +1,9 @@
+name: Test Stable
+type: theme
+description: A theme to test that stable is set as the default.
+# version: VERSION
+
+# Information added by Drupal.org packaging script on 2022-12-07
+version: '9.4.9'
+project: 'drupal'
+datestamp: 1670421160

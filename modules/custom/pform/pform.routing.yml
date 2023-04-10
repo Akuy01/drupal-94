@@ -1,0 +1,16 @@
+pform.form:
+  path: '/example-module/form'
+  defaults:
+    _form: '\Drupal\pform\Form\exampleForm'
+    _title: 'Formulario de prueba'
+  requirements:
+    _permission: 'access content'
+    
+
+
+pform.list:
+  path: '/example-module/data'
+  defaults:
+    _controller: '\Drupal\pform\Controller\exampleController::content'
+  requirements:
+    _permission: 'access content'
